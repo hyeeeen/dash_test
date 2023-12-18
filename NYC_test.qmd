@@ -66,27 +66,11 @@ fig3 = px.density_heatmap(
     height=300
 )
 
-# 1-(1),(2),(3) 에 대응하는 plotly figure를 아래와 같은 이름으로 저장
-# fig1 = ...
-# fig2 = ...
-# fig3 = ...
-```
-
 # 기말고사1-(1),(2)
 
 ```{python}
 #| title: 요일,시간에 따른 평균속력 시각화        
 fig1.show()
-```
-
-```{python}
-#| title: 요일,시간에 따른 평균이동거리 시각화        
 fig2.show()
-```
-
-# 기말고사1-(3)
-
-```{python}
-#| title: 속력별 경로 시각화
 fig3.show()
 ```
